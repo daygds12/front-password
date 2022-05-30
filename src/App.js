@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import './App.css';
-import api from './services/api'
 
 
 function App() {
@@ -51,7 +50,7 @@ function App() {
        }
      try {
        
-       api.post('/login', form)
+      
   
        setForm({
          ...form,
