@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(39, 37, 39);
+}
+form{
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+
+.dicas{
+    padding: 6%;
+}
+
+label{
+    display: block;
+      background-color: red;
+}
+h1{
+    
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    color: aliceblue;
+}
+
+p{
+    color: aliceblue;
+}
+
+label{
+    background-color: red;
+}

@@ -1,0 +1,33 @@
+.App {
+  display: block;
+  text-align: center;
+}
+
+input{
+  background-color:  rgba(247, 244, 244, 0.8);
+  border-radius: 8%;
+  margin-top: 5px;
+  padding: 6px;
+  margin: 8px;
+  
+}
+
+button{
+  padding: 5px;
+  cursor: pointer;
+  background-color:  rgba(247, 244, 244, 0.8);
+
+}
+
+button:hover{
+  color: rgb(221, 99, 43);
+  font-weight: bold;
+
+}
+button:hover {
+  transform: scale(1.1);
+  transition: all 0.5s;
+} 
+
+::-webkit-input-placeholder  { color:rgb(101, 105, 101); }
+
